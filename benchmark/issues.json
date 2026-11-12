@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sample-issue-1",
+    "repo": "owner/repo",
+    "issue_url": "https://github.com/owner/repo/issues/1",
+    "title": "Fix null pointer exception in parser",
+    "description": "Parsing empty files causes an unhandled exception.",
+    "expected_files": [
+      "src/parser.ts"
+    ]
+  }
+]

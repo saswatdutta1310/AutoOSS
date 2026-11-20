@@ -15,6 +15,12 @@
     "src/config.ts",
     "src/doctor.ts",
     "src/events.ts",
+    "src/github/client.ts",
+    "src/github/octokit.ts",
+    "src/github/git.ts",
+    "src/github/workspace.ts",
+    "src/github/branchName.ts",
+    "src/github/ingest.ts",
     "src/github/issueParser.ts"
   ]
 }

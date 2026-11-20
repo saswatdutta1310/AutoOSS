@@ -1,0 +1,29 @@
+{
+  "name": "autooss",
+  "version": "0.1.0",
+  "description": "Autonomous AI agent for open-source issue fixing",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "autooss": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "commander": "^15.1.0",
+    "dotenv": "^18.0.10",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}
